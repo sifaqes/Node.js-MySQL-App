@@ -18,6 +18,6 @@ Node.js MySQL App
     mkdir lib,public,routes,views
 
 Despues crear 3  archivos en src/ son: 
-1 index.js 
-2 database.js 
-3 keys.js
+1   index.js 
+2   database.js 
+3   keys.js
