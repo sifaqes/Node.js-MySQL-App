@@ -64,7 +64,7 @@ Enlace de  arrancar el Servidor [Localhost:4000](http://localhost:4000/)
 
 7 despues creamos en "src/router" un archivo "index.js", y colocamos el codego seguiente:
 
-## /src/routes/index.js
+### /src/routes/index.js
     // Bibtioticas
     const express = require('express');
 
@@ -74,12 +74,12 @@ Enlace de  arrancar el Servidor [Localhost:4000](http://localhost:4000/)
     });
     module.exports = router;
 
-## /src/index.js
+### /src/index.js
 
     // Routas
     app.use(require('./routes'))
 
-Resultado que nos sale un mensaje de hola mundo, pero  en nuestro caso vamos a programar con html pero no puro, por eso necesitamos......
+Resultado que nos sale un mensaje de hola mundo, pero  en nuestro caso vamos a programar con html pero no puro, por eso necesitamos uzar handlebars.
 
 ![image](https://github.com/sifaqes/Node.js-MySQL-App/blob/main/figura2.GIF)
 
