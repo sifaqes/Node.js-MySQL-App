@@ -64,7 +64,12 @@ Enlace de  arrancar el Servidor [Localhost:4000](http://localhost:4000/)
 
 7 despues creamos en "src/router" un archivo "index.js", y colocamos el codego seguiente:
 
-### /src/routes/index.js
+en carpita: 
+    
+    /src/routes/index.js
+
+Agriga el codigo
+
     // Bibtioticas
     const express = require('express');
 
@@ -74,7 +79,11 @@ Enlace de  arrancar el Servidor [Localhost:4000](http://localhost:4000/)
     });
     module.exports = router;
 
-### /src/index.js
+en carpita: 
+    
+    /src/index.js
+
+Agriga el codigo
 
     // Routas
     app.use(require('./routes'))
