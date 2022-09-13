@@ -62,4 +62,4 @@ Enlace del Servidor [Localhost:4000](http://localhost:4000/)
 
 [Start server](https://github.com/sifaqes/Node.js-MySQL-App/blob/main/figura1.GIF)
 
-![image description](https://github.com/sifaqes/Node.js-MySQL-App/blob/main/figura1.GIF)
+![image](https://user-images.githubusercontent.com/64240372/145919115-a0a8b98a-b2bb-4938-9030-4f4bcfa72618.png)
