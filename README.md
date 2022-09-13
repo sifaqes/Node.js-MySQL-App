@@ -18,6 +18,44 @@ Node.js MySQL App
     mkdir lib,public,routes,views
 
 Despues crear 3  archivos en src/ son: 
-    1   index.js 
-    2   database.js 
-    3   keys.js
+    index.js 
+    database.js 
+    keys.js
+
+despues vamos a crear nuestro servidor, llamamos a express y morgan y escribimos el codigo seguiente:
+
+    // Bibtioticas
+    const express = require('express');
+    const morgan = require('morgan')
+        // Inicializacion
+    const app = express();
+    // settings
+    app.set('port', process.env.POR || 4000);
+
+    //middleweres
+    app.use(morgan('dev'));
+    //Global variables
+
+    // Routas
+
+    //Public
+
+    //Starting the server
+    app.listen(app.get('port'), () => {
+        console.log('Server on port', app.get('port'));
+    })
+
+
+despues valor a la carpita principal con la funccion
+
+    cd ..
+
+Despues vamos a  arancar el sevidor, pero tenemos que difinir la funccion de start se llama "dev", en package.json cambiamos  el scripts test al seguiente:
+
+    "dev": "nodemon src/index.js"
+
+Ahora en el terminal nos ponemos 
+
+    npm run dev
+
+Enlace del Servidor [Localhost:4000]:Localhost:4000
