@@ -59,3 +59,5 @@ Ahora en el terminal nos ponemos
     npm run dev
 
 Enlace del Servidor [Localhost:4000](http://localhost:4000/)
+
+[Start server](https://github.com/sifaqes/Node.js-MySQL-App/blob/main/figura1.GIF)
