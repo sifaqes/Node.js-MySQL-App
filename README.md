@@ -61,3 +61,5 @@ Ahora en el terminal nos ponemos
 Enlace del Servidor [Localhost:4000](http://localhost:4000/)
 
 [Start server](https://github.com/sifaqes/Node.js-MySQL-App/blob/main/figura1.GIF)
+
+![image description](https://github.com/sifaqes/Node.js-MySQL-App/blob/main/figura1.GIF)
