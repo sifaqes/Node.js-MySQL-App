@@ -64,7 +64,20 @@ Enlace de  arrancar el Servidor [Localhost:4000](http://localhost:4000/)
 
 7 despues creamos en "src/router" un archivo "index.js", y colocamos el codego seguiente:
 
+## /src/routes/index.js
+    // Bibtioticas
+    const express = require('express');
 
+    const router = express.Router();
+    router.get('/', (req, res) => {
+        res.send('Hola Mundo, Salam Alikum');
+    });
+    module.exports = router;
+
+## /src/index.js
+
+    // Routas
+    app.use(require('./routes'))
 
 
 

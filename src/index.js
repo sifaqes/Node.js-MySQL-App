@@ -11,8 +11,8 @@ app.use(morgan('dev'));
 //Global variables
 
 // Routas
-
-//Public
+app.use(require('./routes'))
+    //Public
 
 //Starting the server
 app.listen(app.get('port'), () => {
