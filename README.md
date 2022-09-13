@@ -11,7 +11,7 @@ Aplicaccion de web Backend Node.js con base de datos Mysql
     npm i nodemon -D
 # Instalaciones
 
-1 Crear Carpitas en el terminal:
+## 1 Crear Carpitas en el terminal:
 
     mkdir src
     cd src
@@ -22,7 +22,7 @@ Aplicaccion de web Backend Node.js con base de datos Mysql
     database.js 
     keys.js
 
-3 despues vamos a crear nuestro servidor, llamamos a express y morgan y escribimos el codigo seguiente:
+## 3 despues vamos a crear nuestro servidor, llamamos a express y morgan y escribimos el codigo seguiente:
 
     // Bibtioticas
     const express = require('express');
@@ -46,15 +46,15 @@ Aplicaccion de web Backend Node.js con base de datos Mysql
     })
 
 
-4 despues valor a la carpita principal con la funccion
+## 4 despues valor a la carpita principal con la funccion
 
     cd ..
 
-5 Despues vamos a  arancar el sevidor, pero tenemos que difinir la funccion de start se llama "dev", en package.json cambiamos  el scripts test al seguiente:
+## 5 Despues vamos a  arancar el sevidor, pero tenemos que difinir la funccion de start se llama "dev", en package.json cambiamos  el scripts test al seguiente:
 
     "dev": "nodemon src/index.js"
 
-6 Ahora en el terminal nos ponemos 
+## 6 Ahora en el terminal nos ponemos 
 
     npm run dev
 
@@ -62,13 +62,13 @@ Enlace de  arrancar el Servidor [Localhost:4000](http://localhost:4000/)
 
 ![image](https://github.com/sifaqes/Node.js-MySQL-App/blob/main/figura1.GIF)
 
-7 despues creamos en "src/router" un archivo "index.js", y colocamos el codego seguiente:
+## 7 despues creamos en "src/router" un archivo "index.js", y colocamos el codego seguiente:
 
 en carpita: 
     
     /src/routes/index.js
 
-Agriga el codigo
+Agrega el codigo
 
     // Bibtioticas
     const express = require('express');
@@ -83,7 +83,7 @@ en carpita:
     
     /src/index.js
 
-Agriga el codigo
+Agrega el codigo
 
     // Routas
     app.use(require('./routes'))
@@ -91,6 +91,11 @@ Agriga el codigo
 Resultado que nos sale un mensaje de hola mundo, pero  en nuestro caso vamos a programar con html pero no puro, por eso necesitamos uzar handlebars.
 
 ![image](https://github.com/sifaqes/Node.js-MySQL-App/blob/main/figura2.GIF)
+
+## 8 Instalacion de handlebars
+
+
+
 
 
 
