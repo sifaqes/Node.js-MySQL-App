@@ -1,13 +1,27 @@
 // Bibtioticas
 const express = require('express');
-const morgan = require('morgan')
-    // Inicializacion
+const morgan = require('morgan');
+const exphbs = require('express-handlebars');
+const path = require('path');
+
+// Inicializacion
 const app = express();
-// settings
-app.set('port', process.env.POR || 4000);
+
+// Settings
+app.set('port', process.env.PORT || 4000);
+app.set('views', path.join(__dirname, 'views'));
+app.engine('.hbs', exphbs({
+    defaultLayout: 'main',
+    layoutsDir: path.join(app.get('views'), 'layouts'),
+    partialsDir: path.join(app.get('views'), 'partials'),
+    extname: '.hbs',
+    helpers: require('./lib/handlebars')
+}))
+app.set('view engine', '.hbs');
 
 //middleweres
 app.use(morgan('dev'));
+
 //Global variables
 
 // Routas

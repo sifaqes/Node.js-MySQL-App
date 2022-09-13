@@ -1,5 +1,7 @@
 # Node.js-MySQL-App
-Aplicaccion de web Backend Node.js con base de datos Mysql 
+Aplicaccion de web Backend Node.js con base de datos Mysql usando modulos de express.
+Email.:  zs7@gcloud.ua.es
+Tel.: 658629772
 
 # Requisitos Packages
 1-Abre el terminal de visual studio code, sin olvidar de descargar la aplicaccion de Node.js si tu OS es windows or Linux
@@ -93,9 +95,9 @@ Resultado que nos sale un mensaje de hola mundo, pero  en nuestro caso vamos a p
 ![image](https://github.com/sifaqes/Node.js-MySQL-App/blob/main/figura2.GIF)
 
 ## 8 Instalacion de handlebars
-
-
-
+en carpita y archivo "main.hbs": 
+    
+    /src/views/layouts/main.hbs
 
 
 
