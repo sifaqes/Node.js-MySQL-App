@@ -1,0 +1,24 @@
+{
+  "name": "node.js-mysql-app",
+  "version": "1.0.0",
+  "description": "Node.js MySQL App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sifaqes/Node.js-MySQL-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sifaqes/Node.js-MySQL-App/issues"
+  },
+  "homepage": "https://github.com/sifaqes/Node.js-MySQL-App#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6"
+  }
+}
