@@ -1,5 +1,5 @@
 # Node.js-MySQL-App
-Node.js MySQL App
+Aplicaccion de web Backend Node.js con base de datos Mysql 
 
 # Requisitos Packages
 1-Abre el terminal de visual studio code, sin olvidar de descargar la aplicaccion de Node.js si tu OS es windows or Linux
