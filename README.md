@@ -79,6 +79,7 @@ Enlace de  arrancar el Servidor [Localhost:4000](http://localhost:4000/)
     // Routas
     app.use(require('./routes'))
 
+Resultado que nos sale un mensaje de hola mundo, pero  en nuestro caso vamos a programar con html pero no puro, por eso necesitamos......
 
 ![image](https://github.com/sifaqes/Node.js-MySQL-App/blob/main/figura2.GIF)
 
