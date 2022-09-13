@@ -11,6 +11,13 @@ Node.js MySQL App
     npm i nodemon -D
 # Instalaciones
 
-3-Crear Carpitas en el terminal:
+## Crear Carpitas en el terminal:
 
+    mkdir src
+    cd src
     mkdir lib,public,routes,views
+
+Despues crear 3  archivos en src/ son: 
+1 index.js 
+2 database.js 
+3 keys.js
