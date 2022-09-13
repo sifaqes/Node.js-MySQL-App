@@ -11,18 +11,18 @@ Aplicaccion de web Backend Node.js con base de datos Mysql
     npm i nodemon -D
 # Instalaciones
 
-## Crear Carpitas en el terminal:
+1 Crear Carpitas en el terminal:
 
     mkdir src
     cd src
     mkdir lib,public,routes,views
 
-Despues crear 3  archivos en src/ son: 
+2 Despues crear 3  archivos en src/ son: 
     index.js 
     database.js 
     keys.js
 
-despues vamos a crear nuestro servidor, llamamos a express y morgan y escribimos el codigo seguiente:
+3 despues vamos a crear nuestro servidor, llamamos a express y morgan y escribimos el codigo seguiente:
 
     // Bibtioticas
     const express = require('express');
@@ -46,18 +46,27 @@ despues vamos a crear nuestro servidor, llamamos a express y morgan y escribimos
     })
 
 
-despues valor a la carpita principal con la funccion
+4 despues valor a la carpita principal con la funccion
 
     cd ..
 
-Despues vamos a  arancar el sevidor, pero tenemos que difinir la funccion de start se llama "dev", en package.json cambiamos  el scripts test al seguiente:
+5 Despues vamos a  arancar el sevidor, pero tenemos que difinir la funccion de start se llama "dev", en package.json cambiamos  el scripts test al seguiente:
 
     "dev": "nodemon src/index.js"
 
-Ahora en el terminal nos ponemos 
+6 Ahora en el terminal nos ponemos 
 
     npm run dev
 
-Enlace del Servidor [Localhost:4000](http://localhost:4000/)
+Enlace de  arrancar el Servidor [Localhost:4000](http://localhost:4000/)
 
 ![image](https://github.com/sifaqes/Node.js-MySQL-App/blob/main/figura1.GIF)
+
+7 despues creamos en "src/router" un archivo "index.js", y colocamos el codego seguiente:
+
+
+
+
+
+
+
