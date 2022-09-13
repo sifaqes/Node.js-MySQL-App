@@ -8,3 +8,7 @@ Node.js MySQL App
 Package Nodemon es un modulo de dessarollo 
 
     npm i nodemon -D
+
+Crear Carpitas:
+
+    mkdir lib,public,routes,views
